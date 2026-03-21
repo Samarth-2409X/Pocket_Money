@@ -102,8 +102,8 @@ A full-stack digital wallet application that allows users to securely send money
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/pocket-money-app.git
-cd pocket-money-app
+git clone https://github.com/Samarth-2409X/Pocket_Money.git
+cd  Pocket_Money
 ```
 
 ### 2️⃣ Backend Setup
