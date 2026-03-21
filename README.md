@@ -189,8 +189,8 @@ The project has been significantly extended and customized with additional featu
 
 ## 👨‍💻 Author
 
-**Samarth Shirahatti**
-
+**Samarth**
+GitHub: [Samarth-2409X](https://github.com/Samarth-2409X)
 ---
 
 ## ⭐ If you like this project
