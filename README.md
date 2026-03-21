@@ -174,6 +174,19 @@ npm run dev
 
 ---
 
+## 🙌 Acknowledgement
+
+This project was initially inspired by learning resources from Harkirat Singh.
+
+The project has been significantly extended and customized with additional features such as:
+
+* QR Code payments
+* Transaction history filtering
+* Improved UI/UX
+* Full-stack integration and enhancements
+
+---
+
 ## 👨‍💻 Author
 
 **Samarth Shirahatti**
