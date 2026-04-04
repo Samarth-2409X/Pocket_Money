@@ -1,7 +1,8 @@
-# 💰 Pocket Money App (Full Stack FinTech Project)
-
-A full-stack digital wallet application that allows users to securely send money, track transactions, and manage their balance with a simple and intuitive interface.
-
+# 💰 Pocket Money
+ 
+### A full-stack peer-to-peer digital wallet — built with the MERN stack
+ 
+*Send money · Track transactions · Manage your balance*
 ---
 
 ## ✨ Features
