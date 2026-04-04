@@ -10,13 +10,14 @@ import { SendMoney } from "./Pages/SendMony";
 import { TransactionHistory } from "./Components/TransHistory";
 import { ChangePassword } from "./Pages/ChangePassword";
 import { ProtectedRoute } from "./Components/ProtectedRoute";
+import LandingPage from "./Pages/LandingPage";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         
-        <Route path="/" element={<Signup />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/signin" element={<Signin />} />
 
