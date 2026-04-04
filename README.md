@@ -4,66 +4,51 @@ A full-stack digital wallet application that allows users to securely send money
 
 ---
 
-## 🚀 Features
-
-* 🔐 **Authentication & Authorization**
-
-  * User Signup / Signin using JWT
-  * Protected routes (frontend + backend)
-
-* 💸 **Money Transfer System**
-
-  * Send money to other users
-  * Validation for insufficient balance
-  * Atomic transactions using MongoDB sessions
-
-* 📊 **Transaction History**
-
-  * View all transactions
-  * Filter by:
-
-    * Sent
-    * Received
-    * All
-
-* 🔍 **User Search**
-
-  * Search users dynamically
-  * Prevent sending money to yourself
-
-* 💰 **Account Balance**
-
-  * Real-time balance fetching
-
-* 📷 **QR Code Payments**
-
-  * Generate QR code for user
-  * Scan QR to quickly send money
-
-* ⚙️ **Profile Management**
-
-  * Change password
-  * Logout functionality
-
+## ✨ Features
+ 
+### 🔐 Authentication & Security
+- User Signup / Signin with **JWT tokens**
+- Protected routes on both frontend and backend
+- Password change from profile settings
+ 
+### 💸 Money Transfer
+- Send money to any registered user instantly
+- **Atomic transactions** using MongoDB sessions — no partial transfers
+- Balance validation before every transfer
+- Prevents sending money to yourself
+ 
+### 📊 Transaction History
+- Complete log of all transactions with timestamps
+- Filter by **All**, **Sent**, or **Received**
+- Color-coded amounts (green = received, red = sent)
+ 
+### 📷 QR Code Payments
+- Every user gets a unique QR code
+- Scan to pay — no searching required
+- Camera integration in-browser
+ 
+### 🔍 User Discovery
+- Live search across all registered users
+- Avatar initials auto-generated from names
+ 
+### 💰 Account Management
+- Real-time balance display
+- Change password from profile
+- Secure logout
+ 
 ---
-
+ 
 ## 🛠️ Tech Stack
-
-### Frontend:
-
-* React.js
-* React Router DOM
-* Tailwind CSS
-* Axios
-
-### Backend:
-
-* Node.js
-* Express.js
-* MongoDB (Mongoose)
-* JWT Authentication
-* Zod (validation)
-
+ 
+| Layer | Technology |
+|-------|-----------|
+| **Frontend** | React 18, React Router DOM, Tailwind CSS, Axios |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB (Mongoose ODM) |
+| **Auth** | JSON Web Tokens (JWT) |
+| **Validation** | Zod |
+| **Build Tool** | Vite |
+ 
 ---
 
 ## 🧠 System Design Highlights
@@ -85,17 +70,27 @@ A full-stack digital wallet application that allows users to securely send money
 
 ---
 
-## ⚙️ How It Works
+## 🗂️ How It Works
+ 
+```
+1. User signs up
+       ↓
+   Account created with random starting balance
+       ↓
+2. User signs in → receives JWT token
+       ↓
+3. Dashboard loads balance + user list
+       ↓
+4. User selects recipient → enters amount → confirms
+       ↓
+5. Atomic transfer: sender debited, receiver credited
+       ↓
+6. Transaction logged with timestamp
+       ↓
+7. History page shows full ledger, filterable
 
-1. User signs up and gets an account with initial balance
-2. User logs in and receives a JWT token
-3. Dashboard shows balance and available users
-4. User can send money to others
-5. Transactions are stored and displayed in history
-6. QR code enables quick peer-to-peer payments
+```
 
-
----
 
 ## 🔧 Setup Instructions
 
