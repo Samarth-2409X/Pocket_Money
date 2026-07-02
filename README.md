@@ -152,6 +152,12 @@ npm run dev
 
 ---
 
+## 📸 Screenshots
+
+![Dashboard](screenshots/Dashboard.png)
+
+---
+
 ## 🚀 Future Improvements
 
 * 🔔 Notifications system
@@ -192,3 +198,4 @@ GitHub: [Samarth-2409X](https://github.com/Samarth-2409X)
 ## ⭐ If you like this project
 
 Give it a star ⭐ on GitHub and feel free to contribute!
+
