@@ -152,12 +152,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-![Dashboard](screenshots/Dashboard.png)
-
----
-
 ## 🚀 Future Improvements
 
 * 🔔 Notifications system
@@ -165,6 +159,12 @@ npm run dev
 * 📱 Mobile responsiveness improvements
 * 🌍 Deployment (Vercel + Render)
 * 🔒 Password hashing (bcrypt)
+
+---
+
+## 📸 Screenshots
+
+![Dashboard](screenshots/Dashboard.png)
 
 ---
 
